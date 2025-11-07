@@ -65,3 +65,24 @@ div {
     background-color: turquoise;
     padding: 50px;
 }
+
+h1 {
+    text-align: center;
+    color: purple;
+}
+
+p {
+    color: red;
+    font-size: 20px;
+}
+
+.output {
+    border: 10px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin: 100px;
+    height: 100px;
+    width: 1000px;
+}
