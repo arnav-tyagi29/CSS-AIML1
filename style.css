@@ -97,10 +97,11 @@ p {
     background-color: lawngreen;
 } */
 
-/* #parent{
+#parent{
     border: 2px solid black;
     padding: 10px;
-    margin-right: 850px;
+    margin-right: 875px;
+    height: 500px;
 }
 .box{
     height: 200px;
@@ -109,6 +110,7 @@ p {
     margin: 10px;
     text-align: center;
     padding: 10px;
+    
     
 }
 #box1{
@@ -120,8 +122,8 @@ p {
 }
 #box3{
     background-color: aquamarine;
-} */
-p{
+}
+/* p{
     float: inline-end;
     
 }
@@ -134,4 +136,4 @@ p{
 }
 div{
     background-color: hotpink;
-}
+} */
