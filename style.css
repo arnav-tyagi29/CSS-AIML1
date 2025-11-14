@@ -97,7 +97,7 @@ p {
     background-color: lawngreen;
 } */
 
-#parent{
+/* #parent{
     border: 2px solid black;
     padding: 10px;
     margin-right: 875px;
@@ -122,7 +122,7 @@ p {
 }
 #box3{
     background-color: aquamarine;
-}
+} */
 /* p{
     float: inline-end;
     
@@ -137,3 +137,18 @@ p{
 div{
     background-color: hotpink;
 } */
+ .container{
+    display: flex;
+    height: 200px;
+    width: 300px;
+    background-color: aqua;
+    border: 1px solid black;
+    flex-wrap: wrap-reverse;
+    
+ }
+ .item{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    border: 1px solid black;
+ }
