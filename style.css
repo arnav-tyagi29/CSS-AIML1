@@ -137,7 +137,7 @@ p{
 div{
     background-color: hotpink;
 } */
- .container{
+/* .container{
     display: flex;
     height: 200px;
     width: 300px;
@@ -151,4 +151,44 @@ div{
     width: 100px;
     background-color: brown;
     border: 1px solid black;
- }
+ } */
+
+.container {
+  height: 500px;
+  width: 1000px;
+  background-color: aqua;
+  border: 1px solid black;
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 10px;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  align-content: space-between;
+  /* grid-template-areas: "header header header header" "main main . sidebar" "footer footer footer footer"; */
+  
+}
+.item {
+  height: 100px;
+  width: 100px;
+  background-color: brown;
+  color: white;
+  border: 1px solid black;
+  text-align: center;
+  align-content: center;
+}
+
+/* .item1 {
+  grid-area: header;
+}
+.item2 {
+  grid-area: main;
+}
+.item3 {
+  grid-area: sidebar;
+}
+.item4 {
+  grid-area: footer;
+} */
